@@ -1,0 +1,39 @@
+
+const entrada = require('prompt-sync')({ sigint: true })
+let nome;
+
+nome = prompt("Digite o seu nome:");
+
+
+
+
+
+let produto1 = {
+    id: 1,
+    nome: "Pao",
+    preco: 1.50,
+};
+
+let produto2 = {
+    id: 2,
+    nome: "Leite",
+    preco: 5.00,
+};
+
+console.log(produto1.id + " - " + produto1.nome + " - R$ " + produto1.preco);
+console.log(produto2.id + " - " + produto2.nome + " - R$ " + produto2.preco);
+
+
+let cliente1 = {
+    id: 1,
+    nome: "João Mercado",
+    endereco: "Rua Movimento, 12345",
+};
+
+console.log("Cliente:" + " - " + cliente1.nome);
+
+
+let carrinho = [produto1, produto2];
+console.log(carrinho);
+
+
