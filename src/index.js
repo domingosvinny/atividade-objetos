@@ -51,4 +51,22 @@ while(true) {
 }
 
 
+// Descrição de algumas funções //
 
+/*  while (true) {  -       são usados para repetir uma sequência de instruções um número desconhecido de vezes. Este tipo de laço roda enquanto uma dada condição
+     é True (verdadeira) e somente é interrompida quando a condição se torna False (falsa).
+
+    Push({ -    O método push é uma função embutida no JavaScript que permite adicionar um elemento ou vários elementos ao final de um array existente. Ele modifica
+     o próprio array, aumentando o seu tamanho e inserindo os novos elementos no final.
+
+    toFixed(2) - é um método nativo do JavaScript que permite arredondar um número para um número específico de casas decimais. Para arredondar um número para
+     duas casas decimais, basta chamar o método toFixed(2)
+    
+    parseFloat - é uma função incorporada no JavaScript que permite realizar essa conversão para um número de ponto flutuante. Ao utilizar o parseFloat, é necessário
+     passar a string como argumento para a função. A função irá analisar a string e retornar o valor numérico correspondente.
+    
+    parseInt  - a função produz um valor inteiro ditado pela interpretação do conteúdo de uma argumento string de acordo com uma base específicada.
+    
+    *Diferença entre parseInt e parseFloat
+    Entenda a diferença entre os métodos parseInt() e parseFloat() : É crucial entender a diferença entre essas duas funções. parseInt() é usado para converter
+     uma string em um número inteiro, enquanto parseFloat() lida com números de ponto flutuante. */
